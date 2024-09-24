@@ -17,6 +17,7 @@ public class Book {
     
     private String title;
     private String author;
+    @Column(name = "`year`")
     private Integer year;
     
     private Double rating;
