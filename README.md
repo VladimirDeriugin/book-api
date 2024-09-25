@@ -36,10 +36,10 @@ java -jar target/book-api-0.0.1-SNAPSHOT.jar
 ```
 3. **Accessing the Application**
 #### The application will start on http://localhost:8080.
-- ** H2 Console: Accessible at http://localhost:8080/h2-console**
-- ** JDBC URL: jdbc:h2:mem:bookdb**
-- ** Username: sa**
-- ** Password: (leave blank)**
+- H2 Console: Accessible at http://localhost:8080/h2-console
+- JDBC URL: jdbc:h2:mem:bookdb
+- Username: sa
+- Password: (leave blank)
 
 Base URL (http://localhost:8080/api/books)
 
