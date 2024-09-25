@@ -1,27 +1,35 @@
-Book API
+# Book API
 
-Book API is a Spring Boot-based RESTful service that provides comprehensive management of book information. 
-It allows clients to perform CRUD operations, filter books based on various criteria, and rate books. 
-The application is designed with scalability and maintainability in mind, featuring unit and integration tests to ensure reliability. Additionally, the application is containerized using Docker for easy deployment.
+Book API is a Spring Boot-based RESTful service that provides comprehensive management of book information. It allows clients to perform CRUD operations, filter books based on various criteria, and rate books. The application is designed with scalability and maintainability in mind, featuring unit and integration tests to ensure reliability. Additionally, the application is containerized using Docker for easy deployment.
 
-Getting Started
-Prerequisites
-Java Development Kit (JDK) 17 or higher
-Maven 3.8.x or higher
-Git (for cloning the repository)
-Docker (optional, for containerization)
+## Getting Started
 
-Installation
-1.Clone the Repository
-git clone https://github.com/VladimirDeriugin/book-api.git
-cd book-api
+### Prerequisites
 
-2.Use Maven to build the project and download dependencies.
-mvn clean install
+- **Java Development Kit (JDK) 17** or higher
+- **Maven 3.8.x** or higher
+- **Git** (for cloning the repository)
+- **Docker** (optional, for containerization)
 
-Running the Application
-1.Using Maven
+### Installation
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/VladimirDeriugin/book-api.git
+    cd book-api
+    ```
+
+2. **Use Maven to build the project and download dependencies.**
+    ```bash
+    mvn clean install
+    ```
+
+## Running the Application
+
+### 1. Using Maven
+```bash
 mvn spring-boot:run
+```
 2.Using the Executable Jar
 java -jar target/book-api-0.0.1-SNAPSHOT.jar
 3.Accessing the Application
